@@ -1,0 +1,15 @@
+plugins {
+  id 'java'
+  id 'idea'
+}
+group 'daggerok'
+version '0.0.1'
+
+repositories { mavenCentral() }
+
+dependencies {
+  compile 'org.projectlombok:lombok:1+',
+      'com.github.fommil:openssh:1.0',
+      'commons-io:commons-io:2+'
+  testCompile 'junit:junit:4.12'
+}
